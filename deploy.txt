@@ -1,0 +1,13 @@
+# Initialiser Git
+git init
+git add .
+git commit -m "Initial commit"
+
+# Créer le dépôt sur GitHub.com puis :
+git remote add origin https://github.com/tonusername/react-dashboard.git
+git branch -M main
+git push -u origin main
+
+npm run deploy
+
+URL finale : https://tonusername.github.io/react-dashboard
